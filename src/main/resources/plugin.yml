@@ -1,0 +1,17 @@
+name: DNDumfing
+version: '${project.version}'
+main: com.dumfing.dndtools.dndumfing.DNDumfing
+api-version: 1.19
+authors: [ Dumfing ]
+website: https://github.com/AaronLi
+depend: [ ProtocolLib ]
+commands:
+  astralproject:
+    description: Enter spectator mode while leaving your body in an invulnerable state in the world
+    permission: astralproject.user
+    usage: /astralproject [on/off]
+
+permissions:
+  astralproject.user:
+    description: Allows astralproject command
+    default: true
